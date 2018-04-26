@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title>Comment Section</title>
+</head>
+<body>
+	<header>
+		<h1>Market IT</h1>
+	</header>
+	<ul id = "menu">
+      <a href="orderSection.html"><li>Order now!</li></a>
+      <a href="commentSection.html"><li class="selected">Leave a comment!</li></a>
+      <a href="orders.html"><li>My orders</li></a>
+      <a href="aboutus.html"><li>About Us</li></a>
+      <li id="logout">Log out</li>
+    </ul>
+
+	<div>
+		<h4 id="welcomeMessage"></h4>
+  	</div>
+	<fieldset>
+		<legend>Leave a comment</legend>
+		<div id="comment">
+			<br>
+			<label><strong>Comment</strong></label>
+			<span id="commentError" class="hideElement errorElement">Please type your comment</span>
+			<br>
+			​<textarea id="commentText" rows="10" cols="70" style="resize: none"></textarea><br><br>
+				<input id="submitForm" type="submit" value="Submit"/>
+		</div>
+	</fieldset>
+
+	<fieldset><legend>Comments</legend><p id="commentLog">
+		Comment log:
+	</p></fieldset>		
+	<br>
+	<footer>
+		All Rights Reserved. Market IT
+	</footer>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/commentSection.js"></script>
+	<script type="text/javascript" src="js/logout.js"></script>
+</body>
+</html>

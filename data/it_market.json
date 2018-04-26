@@ -1,0 +1,89 @@
+{
+  "parts": {
+    "Case": [
+      {
+        "type": "Corsair Crystal Series 570X",
+        "value": "Corsair1",
+        "cost": "169.99"
+      },
+      {
+        "type": "Corsair Graphite Series 760T",
+        "value": "Corsair2",
+        "cost": "155.99"
+      },
+      {
+        "type": "Corsair Carbide Series 200R Compact ATX Case",
+        "value": "Corsair3",
+        "cost": "59.99"
+      }
+    ],
+    "RAM": [
+      {
+        "type": "CORSAIR - VENGEANCE RGB Series 16GB (2PK 8GB) 3.0GHz DDR4",
+        "value": "Ram1",
+        "cost": "205.99"
+      },
+      {
+        "type": "CORSAIR - VENGEANCE RGB Series 32GB (2PK 16GB) 3.2GHz DDR4",
+        "value": "Ram2",
+        "cost": "405.99"
+      },
+      {
+        "type": "CORSAIR - VENGEANCE LED Series 64GB (4PK 16GB) 3.2GHz DDR4",
+        "value": "Ram3",
+        "cost": "879.99"
+      }
+    ],
+    "GraphicCard": [
+      {        
+        "type": "EVGA - NVIDIA GeForce GTX 1050 2GB",
+        "value": "GTX1",
+        "cost": "199.99"        
+      },
+      {
+        "type": "PNY - XLR8 1050Ti OC GAMING NVIDIA GeForce GTX 1050 Ti 4GB",
+        "value": "GTX2",
+        "cost": "229.99"
+      },
+      {        
+        "type": "NVIDIA - Founders Edition GeForce GTX 1070 8GB",
+        "value": "GTX3",
+        "cost": "399.99"        
+      }
+    ],
+     "Processor": [
+      {
+        "type": "Intel - Core™ i5-6500 3.2GHz Processor",
+        "value": "Intel1",
+        "cost": "204.99" 
+      },
+      {
+        "type": "Intel - Core i5-7600K Quad-Core 3.8 GHz ",
+        "value": "Intel2",
+        "cost": "239.99" 
+      },
+      {
+        "type": "Intel - Core™ i7-6700K 4.0GHz Processor",
+        "value": "Intel3",
+        "cost": "349.99" 
+      },
+      {
+        "type": "Intel - Core i7-7700K Quad-Core 4.2 GHz ",
+        "value": "Intel4",
+        "cost": "345.99" 
+      }
+    ],
+    "OperatingSystem": [
+      {
+        "type": "Microsoft Windows 10 Home (64-Bit) - Windows",
+        "value": "OS1",
+        "cost": "99.99" 
+      },
+      {
+        "type": "Microsoft Windows 10 Pro (64-Bit) - Windows",
+        "value": "OS2",
+        "cost": "169.99" 
+      }
+    ]
+  }
+}

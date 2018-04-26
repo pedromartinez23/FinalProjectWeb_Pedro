@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title>IT</title>
+</head>
+<body>
+	<header>
+		<h1 class="banner">Market IT</h1>
+	</header>
+	<ul id="menu">
+		<a href="orderForm.html"><li class="selected">Order now!</li></a>
+		<a href="commentSection.html"><li>Leave a comment!</li></a>
+		<a href="orders.html"><li>My orders</li></a>
+		<a href="aboutus.html"><li>About Us</li></a>
+		<li id="logout">Log out</li>
+	</ul>
+
+	<div>
+		<h4 id="welcomeMessage" align="center"></h4>
+  	</div>
+
+	<table>
+		<tr>
+		
+		</tr>
+		<tr>
+			<td>
+				<fieldset>
+					<legend>Create your Computer</legend>
+
+					<div class="container">
+					  <h2>Search bar</h2>
+					  <input class="form-control" id="myInput" type="text" placeholder="Search..">
+					  <div id="myDIV">
+						   <div id="Case" class="options">
+								<br>
+								<label><strong>Computer Cases:</strong></label>
+								<span id="CasesError" class="hideElement errorElement">Please select a case</span>
+								<br>
+							</div>
+
+							<div id="RAM" class="options">
+								<br>
+								<label><strong>RAM:</strong></label>
+								<span id="RAMError" class="hideElement errorElement">Please select a RAM</span>
+								<br>
+							</div>
+
+							<div id="GraphicCard" class="options">
+								<br>
+								<label><strong>Graphic Cards</strong></label>
+								<span id="GraphicCardError" class="hideElement errorElement">Please select a Graphic Card</span>
+								<br>
+							</div>
+							
+							<div id="Processor" class="options">
+								<br>
+								<label><strong>Processor:</strong></label>
+								<span id="ProcessorError" class="hideElement errorElement">Please select a processor</span>
+								<br>
+							</div>
+
+							<div id="OperatingSystem" class="options">
+								<br>
+								<label><strong>Processor:</strong></label>
+								<span id="OperatingSystemError" class="hideElement errorElement">Please select an operating system</span>
+								<br>
+							</div>
+
+							<div id="buttons">
+								<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="Submit" type="Submit" value="Submit"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="Reset" type="Submit" value="Reset" />
+							</div>
+					  </div>
+					</div>
+					
+				
+			</td>
+			<td>
+
+				<fieldset><legend>Order Summary</legend>
+				<div class="summaryOrder" id="summaryOrder">
+            	</div>
+
+				<input id="mail" type="Submit" value="Send mail" class="hideElement"></fieldset>
+
+			</td>
+		</tr>
+	</table>
+	<footer>
+	</footer>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/orderSection.js"></script>
+	<script type="text/javascript" src="js/logout.js"></script>
+	<script>
+	$(document).ready(function(){
+	  $("#myInput").on("keyup", function() {
+	    var value = $(this).val().toLowerCase();
+	    $("#myDIV *").filter(function() {
+	      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+	    });
+	  });
+	});
+	</script>
+
+</body>
+</html>
